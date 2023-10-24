@@ -13,9 +13,10 @@ body{
 }
 
 .container{
+    padding: 1rem;
 }
 
-/*flex items*/
+/*FLEX ITEMS*/
 .flex-j-column{
     display: flex;
     justify-content: column;
@@ -69,11 +70,11 @@ header{
     left: 0;
     z-index: 2;
     position: fixed;
+    color: white;
 }
 
 /*MAIN*/
 main{
-    background-color: rgb(20, 25, 34);
     height: 100vh;
     margin-left: 12rem;
     margin-bottom: 5rem;
@@ -91,10 +92,19 @@ main .navbar{
     width: 100%;
     background-color: red;
     margin-top: 5rem;
+    padding: 0 5rem;
 }
 
 main .navbar nav{
     height: 100%;
+}
+
+main .jumbotron{
+    color: white;
+    height: 100%;
+    margin-bottom: 5rem;
+    width: 100%;
+    background-color: rgb(20, 25, 34);
 }
 
 /*FOOTER*/
@@ -103,7 +113,6 @@ footer{
     background-color: rgb(40, 40, 40);
     width: 100%;
     bottom: 0;
-    left: 0;
     position: fixed;
     color: white;
     z-index: 3;
