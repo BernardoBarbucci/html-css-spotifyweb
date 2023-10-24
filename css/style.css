@@ -9,10 +9,10 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
+    position: relative;
 }
 
 .container{
-    position: relative;
 }
 
 /*flex items*/
@@ -26,17 +26,39 @@ body{
     flex-direction: row;
 }
 
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-ai-center{
+    display: flex;
+    align-items: center;
+}
 /*header*/
 header{
     background-color: rgb(0, 0, 0);
     width: 15%;
     height: 100vh;
-    position: absolute;
+    left: 0;
+    z-index: 2;
 }
 
-aside .upgrade{
+main{
+    background-color: limegreen;
+}
+
+footer{
     height: 5rem;
-    background-color: blue;
+    background-color: rgb(40, 40, 40);
     width: 100%;
-    position: absolute;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    color: white;
+}
+
+footer .sound-manag{
+    height: 100%;
+    padding: 0 1rem;
 }
