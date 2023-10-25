@@ -75,9 +75,21 @@ header{
 
 header div>.logo-big{
     height: 2.5rem;
-    padding-left: 0.7rem;
+    padding-left: 1rem;
     margin-top: 0.7rem;
 }
+
+header .menu{
+    font-size: 16px;
+    line-height: 35px;
+    padding-top: 23px;
+    padding-left: 1.3rem;
+}
+
+header .menu p>i{
+    font-size: 18px;
+}
+
 /*MAIN*/
 main{
     height: 100vh;
