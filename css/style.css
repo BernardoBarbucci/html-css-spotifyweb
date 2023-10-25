@@ -17,7 +17,7 @@ body{
 }
 
 /*FLEX ITEMS*/
-.flex-j-column{
+.flex-column{
     display: flex;
     flex-direction: column;
 }
@@ -86,8 +86,9 @@ header .menu{
     padding-left: 1.3rem;
 }
 
-header .menu p>i{
+header .menu div i{
     font-size: 18px;
+    margin-right: 5px;
 }
 
 /*MAIN*/
