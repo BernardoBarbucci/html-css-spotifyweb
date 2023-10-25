@@ -98,16 +98,10 @@ main{
 }
 
 main .top-bar{
-    height: 5rem;
-    width: 100%;
-    background-color: magenta;
+    width: calc(100% - 12rem);
+    background-color:rgb(8, 11, 18);
     position: fixed;
-/*height: 5rem;       da cambiare, fatto da Jacopo
-  width: calc(100% - 12rem);
-  background-color: #ff00ff70;
-  position: fixed;
-  border: 10px solid yellow;
-*/   
+    height: 5rem;  
 }
 
 main .navbar{
