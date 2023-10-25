@@ -19,7 +19,7 @@ body{
 /*FLEX ITEMS*/
 .flex-j-column{
     display: flex;
-    justify-content: column;
+    flex-direction: column;
 }
 
 .flex-j-end{
@@ -73,6 +73,11 @@ header{
     color: white;
 }
 
+header div>.logo-big{
+    height: 2.5rem;
+    padding-left: 0.7rem;
+    margin-top: 0.7rem;
+}
 /*MAIN*/
 main{
     height: 100vh;
@@ -85,6 +90,12 @@ main .top-bar{
     width: 100%;
     background-color: magenta;
     position: fixed;
+/*height: 5rem;       da cambiare, fatto da Jacopo
+  width: calc(100% - 12rem);
+  background-color: #ff00ff70;
+  position: fixed;
+  border: 10px solid yellow;
+*/   
 }
 
 main .navbar{
