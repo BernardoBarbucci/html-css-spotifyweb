@@ -251,23 +251,13 @@ footer .sound-manag{
 }
 
 
-
+/*LEFT-PART*/
 .sound-manag .left-items{
     border: 3px solid limegreen;
     width: 160px;
     height: 3.2rem;
     display: flex;s
     justify-content: space-between;
-}
-.sound-manag .middle-items{
-    border: 3px solid rgb(0, 47, 255);
-    width: auto;
-    height: 3.2rem;
-}
-.sound-manag .right-items{
-    border: 3px solid rgb(225, 0, 255);
-    width: 160px;
-    height: 3.2rem;
 }
 .sound-manag .left-items img{
     margin-right: .7rem;
@@ -287,6 +277,32 @@ footer .sound-manag{
     font-size: 10px;
     display: inline-block;
 }
+
+/*MIDDLE-PART*/
+.sound-manag .middle-items{
+    border: 3px solid rgb(0, 47, 255);
+    width: 56%;
+    height: 4rem;
+}
+.sound-manag .middle-items .top{
+    width: 16rem;
+    font-size: 19px;
+}
+.sound-manag .middle-items .top i:nth-child(3){
+    font-size: 25px;
+}
+.sound-manag .middle-items .top i{
+    padding-top: 5px;
+}
+
+/*RIGHT-PART*/
+.sound-manag .right-items{
+    border: 3px solid rgb(225, 0, 255);
+    width: 160px;
+    height: 3.2rem;
+    top: 0;
+}
+
 
 
 
@@ -339,23 +355,3 @@ footer .sound-manag{
         flex-direction: column;
     }
 }
-/*
-@media screen and (min-width:577px){
-    footer .sound-manag .left-items{
-        border: 3px solid rgb(255, 255, 255);
-        width: 22%;
-        height: 3.2rem;
-        display: flex;
-        justify-content: space-between;
-    }
-    .sound-manag .middle-items{
-        border: 3px solid rgb(129, 152, 255);
-        width: 56%;
-        height: 3.2rem;
-    }
-    .sound-manag .right-items{
-        border: 3px solid rgb(253, 243, 97);
-        width: 22%;
-        height: 3.2rem;
-    }
-}*/
