@@ -95,9 +95,8 @@ header .logos img:nth-child(2){
 
 header .menu{
     font-size: 16px;
-    line-height: 35px;
-    padding-top: 23px;
-    padding-left: 1.3rem;
+    line-height: 25px;
+    margin: 1.3rem;
     color: rgb(120, 120, 120);
 }
 
@@ -107,16 +106,16 @@ header .menu{
 }
 
 header .menu div{
-    font-size: 18px;
+    font-size: 16px;
     margin-right: 9px;
     margin-bottom: 10px;
 }
-/*DA RISOLVRE L'HOVER*/
+/*DA RISOLVERE L'HOVER*/
 header .menu div:hover{
     color: white;
-    font-size: 20px;
-    border-left: 3px solid;
-    border-color: rgb(173, 255, 47);
+    font-size: 18px;
+    /* border-left: 3px solid;
+    border-color: rgb(173, 255, 47); */
 }
 
 header .playlist{
@@ -140,40 +139,34 @@ header .playlist p>button{
 }
 
 header .profile{
-    padding-top: 14rem;
-    line-height: 38px;
+    padding-top: 11rem;
+    line-height: 32px;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
 }
 
-header .profile p:first-child{
+header .profile div p:first-child{
     font-size: 13px;
     color:  rgb(120, 120, 120);
 }
 
-header .profile p:last-child{
+header .profile div p:last-child{
     font-weight: bold;
     font-size: 17px;
 }
 
-header .profile p:hover{
+header .profile div p:hover{
     color: white;
     font-size: 15px;
 }
 
-header .profile i:first-child{
+header .profile div i:first-child{
     margin-right: 10px;
 }
 
-header .profile p:last-child:hover{
+header .profile div p:last-child:hover{
     font-size: 19px;
 }
-
-/*header .playlist p>button:hover{
-    filter: invert();
-}
-FUNZIONA SE VAI SUL TESTO MA NON SUL + DA SOLO
-*/
 
 header .playlist ul li{
     list-style-type: none;
@@ -199,9 +192,6 @@ header .playlist p:hover{
     color: white;
 }
 
-header .profile p{
-
-}
 
 /*MAIN*/
 main{
@@ -269,11 +259,27 @@ footer .sound-manag{
         width: 2.5rem;
         margin: 0.5rem;
     }
-    
+    header .menu{
+        margin-left: 1rem;
+    }
+    .menu div > p{
+        display: none;
+        font-size: 15px;
+    }
     .playlist{
         display: none;
     }
-    
+    header .profile{
+        padding-top: 38rem;
+        line-height: 38px;
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+    }
+    header .profile div p {
+        display: none; /* Nasconde tutti i paragrafi */
+    }
+
+
     /*FINE HEADER*/
     main{
         margin-left: 3rem;
@@ -281,5 +287,4 @@ footer .sound-manag{
     main .top-bar{
         width: calc(100% - 3rem);
     }
-
 }
