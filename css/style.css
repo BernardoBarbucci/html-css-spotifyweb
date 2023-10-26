@@ -22,6 +22,11 @@ body{
     flex-direction: column;
 }
 
+.flex-j-start{
+    display: flex;
+    justify-content: start;
+}
+
 .flex-j-end{
     display: flex;
     justify-content: end;
@@ -249,39 +254,42 @@ footer .sound-manag{
 
 .sound-manag .left-items{
     border: 3px solid limegreen;
-    width: 23%;
+    width: 160px;
     height: 3.2rem;
-    display: flex;
+    display: flex;s
     justify-content: space-between;
 }
 .sound-manag .middle-items{
     border: 3px solid rgb(0, 47, 255);
-    width: 54%;
+    width: auto;
     height: 3.2rem;
 }
 .sound-manag .right-items{
     border: 3px solid rgb(225, 0, 255);
-    width: 23%;
+    width: 160px;
     height: 3.2rem;
 }
-
-
-/*.sound-manag .left-items img{
-    width: 2.5rem;
-    margin-right: 1rem;
+.sound-manag .left-items img{
+    margin-right: .7rem;
+    height: 2rem;
 }
-.sound-manag .left-items .song-name{
-    margin-right: 1rem;
-}*/
-.sound-manag .left-items .icons i:first-child{
-    padding-right: 1rem;
+.sound-manag .left-items .icons{
+    margin-left: 15px;
+}
+.sound-manag .left-items .icons i{
+    padding:5px;
 }
 .sound-manag .left-items .song-name h1{
-    font-size: 22px;
+    font-size: 13px;
+    padding-right: 10px;
 }
 .sound-manag .left-items .song-name p{
-    font-size: 17px;
+    font-size: 10px;
+    display: inline-block;
 }
+
+
+
 /*MEDIA QUERIES*/
     /*MOBILE*/
 @media screen and (max-width:576px) {
@@ -324,4 +332,30 @@ footer .sound-manag{
     main .top-bar{
         width: calc(100% - 3rem);
     }
+
+    /*FOOTER*/
+    footer .sound-manag .left-items .icons{
+        display: flex;
+        flex-direction: column;
+    }
 }
+/*
+@media screen and (min-width:577px){
+    footer .sound-manag .left-items{
+        border: 3px solid rgb(255, 255, 255);
+        width: 22%;
+        height: 3.2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sound-manag .middle-items{
+        border: 3px solid rgb(129, 152, 255);
+        width: 56%;
+        height: 3.2rem;
+    }
+    .sound-manag .right-items{
+        border: 3px solid rgb(253, 243, 97);
+        width: 22%;
+        height: 3.2rem;
+    }
+}*/
