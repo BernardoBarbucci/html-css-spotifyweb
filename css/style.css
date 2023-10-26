@@ -253,9 +253,9 @@ footer .sound-manag{
 
 /*LEFT-PART*/
 .sound-manag .left-items{
-    width: 160px;
+    width: 175px;
     height: 3.2rem;
-    display: flex;s
+    display: flex;
     justify-content: space-between;
 }
 .sound-manag .left-items img{
@@ -298,8 +298,9 @@ footer .sound-manag{
 }
 .song-progress {
     width: 38vw;
-    height: 3px;
+    height: 5px;
     background-color:rgb(94, 94, 94);
+    border-radius: 10px;
 }
 .progress-bar {
     width: 33%; 
@@ -308,12 +309,20 @@ footer .sound-manag{
 }
 /*RIGHT-PART*/
 .sound-manag .right-items{
-    border: 3px solid rgb(225, 0, 255);
-    width: 160px;
+    width: 175px;
     height: 3.2rem;
-    top: 0;
+    font-size: 15px;
 }
-
+.volume-bar{
+    width: 5rem;
+    height: 3px;
+    background-color:rgb(94, 94, 94);
+}
+.volume-bar .progress-bar{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(204, 204, 204);
+}
 
 
 
