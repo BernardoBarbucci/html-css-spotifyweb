@@ -139,8 +139,8 @@ header .playlist p>button{
 }
 
 header .profile{
-    padding-top: 11rem;
-    line-height: 32px;
+    padding-top: 14rem;
+    line-height: 50px;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
 }
@@ -152,20 +152,23 @@ header .profile div p:first-child{
 
 header .profile div p:last-child{
     font-weight: bold;
-    font-size: 17px;
+    font-size: 14px;
+    color:  rgb(120, 120, 120);
 }
 
-header .profile div p:hover{
+header .profile div i:hover{
     color: white;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 header .profile div i:first-child{
     margin-right: 10px;
+    color:  rgb(120, 120, 120);
 }
 
 header .profile div p:last-child:hover{
-    font-size: 19px;
+    font-size: 18px;
+    color:  white;
 }
 
 header .playlist ul li{
@@ -237,13 +240,48 @@ footer{
     color: white;
     z-index: 3;
 }
-
 footer .sound-manag{
     height: 100%;
     padding: 0 1rem;
 }
 
 
+
+.sound-manag .left-items{
+    border: 3px solid limegreen;
+    width: 23%;
+    height: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.sound-manag .middle-items{
+    border: 3px solid rgb(0, 47, 255);
+    width: 54%;
+    height: 3.2rem;
+}
+.sound-manag .right-items{
+    border: 3px solid rgb(225, 0, 255);
+    width: 23%;
+    height: 3.2rem;
+}
+
+
+/*.sound-manag .left-items img{
+    width: 2.5rem;
+    margin-right: 1rem;
+}
+.sound-manag .left-items .song-name{
+    margin-right: 1rem;
+}*/
+.sound-manag .left-items .icons i:first-child{
+    padding-right: 1rem;
+}
+.sound-manag .left-items .song-name h1{
+    font-size: 22px;
+}
+.sound-manag .left-items .song-name p{
+    font-size: 17px;
+}
 /*MEDIA QUERIES*/
     /*MOBILE*/
 @media screen and (max-width:576px) {
@@ -276,9 +314,8 @@ footer .sound-manag{
         padding-right: 1.2rem;
     }
     header .profile div p {
-        display: none; /* Nasconde tutti i paragrafi */
+        display: none;
     }
-
 
     /*FINE HEADER*/
     main{
