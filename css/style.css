@@ -249,11 +249,8 @@ footer .sound-manag{
 
 
 /*MEDIA QUERIES*/
+    /*MOBILE*/
 @media screen and (max-width:576px) {
-    main{
-        margin-left: 3rem;
-    }
-
     header{
         width: 3.5rem;
     }
@@ -266,13 +263,20 @@ footer .sound-manag{
         width: 2.5rem;
         margin: 0.5rem;
     }
-
     .menu{
 
     }
 
-
     .playlist{
         display: none;
     }
+    
+    /*FINE HEADER*/
+    main{
+        margin-left: 3rem;
+    }
+    main .top-bar{
+        width: calc(100% - 3rem);
+    }
+
 }
