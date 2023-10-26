@@ -253,7 +253,6 @@ footer .sound-manag{
 
 /*LEFT-PART*/
 .sound-manag .left-items{
-    border: 3px solid limegreen;
     width: 160px;
     height: 3.2rem;
     display: flex;s
@@ -280,7 +279,6 @@ footer .sound-manag{
 
 /*MIDDLE-PART*/
 .sound-manag .middle-items{
-    border: 3px solid rgb(0, 47, 255);
     width: 56%;
     height: 4rem;
 }
@@ -294,7 +292,20 @@ footer .sound-manag{
 .sound-manag .middle-items .top i{
     padding-top: 5px;
 }
-
+.sound-manag .middle-items .bottom p{
+    font-size: 10px;
+    margin: .5rem;
+}
+.song-progress {
+    width: 38vw;
+    height: 3px;
+    background-color:rgb(94, 94, 94);
+}
+.progress-bar {
+    width: 33%; 
+    height: 100%;
+    background-color:rgb(204, 204, 204); 
+}
 /*RIGHT-PART*/
 .sound-manag .right-items{
     border: 3px solid rgb(225, 0, 255);
