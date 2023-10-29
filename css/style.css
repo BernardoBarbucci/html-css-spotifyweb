@@ -288,9 +288,9 @@ main .jumbotron{
     color: rgb(125, 127, 131);
 }
     /* johnny */
-.jumbotron .johnny{
+/* .jumbotron .johnny{
     padding-top: 4.5rem;
-}
+} */
 .jumbotron .johnny h1{
     font-size: 21px;
     margin-bottom: 0.6rem;
@@ -477,5 +477,8 @@ footer .sound-manag{
 @media screen and (min-width: 1187px) {
     .wrapper .album{
         margin-bottom: 2.5rem;
+    }
+    .jumbotron .johnny{
+        padding-top: 4.5rem;
     }
 }
