@@ -202,6 +202,7 @@ header .playlist p:hover{
 
 
 /*MAIN*/
+/* TOPBAR */
 main{
     height: 100vh;
     margin-left: 12rem;
@@ -215,6 +216,7 @@ main .top-bar{
     height: 5rem;  
 }
 
+/* NAVBAR */
 main .navbar{
     height: 5rem;
     width: 100%;
@@ -224,11 +226,17 @@ main .navbar{
     color: rgb(129, 131, 136);
     font-size: 13px;
 }
-
 main .navbar nav{
     height: 100%;
 }
+main nav p:hover{
+    border-bottom: 2px solid rgb(173, 255, 47);
+    padding-bottom: 2px;
+}
 
+
+
+/* JUMBOTRON */
 main .jumbotron{
     color: white;
     height: 100%;
@@ -383,10 +391,6 @@ main .top-bar button{
         padding: 0;
     }
 
-
-
-
-
     /*FINE HEADER*/
     main{
         margin-left: 3rem;
@@ -400,4 +404,13 @@ main .top-bar button{
         display: flex;
         flex-direction: column;
     }
+}
+
+    /* DESKTOP */
+@media screen and (min-width: 992px) {
+    /* MAIN */
+    main .navbar nav{
+        padding: 0 5rem;
+    }
+
 }
