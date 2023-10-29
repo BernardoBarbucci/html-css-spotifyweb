@@ -263,24 +263,24 @@ main .jumbotron{
     width: 100%;
     background-color: rgb(20, 25, 34);
 }
-.jumbotron .recently-played h1{
+.recently-played h1{
     margin-bottom: 10px;
     font-size: 21px;
 }
-.jumbotron .recently-played .wrapper .album{
+.wrapper .album{
     height: 9rem;
     width: 9rem;
     margin: .5rem;
-    margin-bottom: 6rem;
+    margin-bottom: 5.1rem;
 }
-.jumbotron .recently-played .wrapper .album img{
+.wrapper .album img{
     width: 100%;
     margin-bottom: 5px;
 }
-.jumbotron .recently-played .wrapper .album h1{
+.wrapper .album h1{
     font-size: 15px;
 }
-.jumbotron .recently-played .wrapper .album p{
+.wrapper .album p{
     font-size: 12px;
     color: rgb(125, 127, 131);
 }
@@ -291,11 +291,15 @@ main .jumbotron{
 }
 .jumbotron .johnny h1{
     font-size: 21px;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.6rem;
 }
 .jumbotron .johnny p{
     font-size: 12px;
     color: rgb(125, 127, 131);
+    margin-bottom: 1.2rem;
+}
+.jumbotron .johnny .wrapper .album h1{
+    font-size: 15px;
 }
 
 /*FOOTER*/
@@ -312,9 +316,7 @@ footer .sound-manag{
     height: 100%;
     padding: 0 1rem;
 }
-
-
-/*LEFT-PART*/
+    /*LEFT-PART*/
 .sound-manag .left-items{
     width: 175px;
     height: 3.2rem;
@@ -339,8 +341,7 @@ footer .sound-manag{
     font-size: 10px;
     display: inline-block;
 }
-
-/*MIDDLE-PART*/
+    /*MIDDLE-PART*/
 .sound-manag .middle-items{
     width: 56%;
     height: 4rem;
@@ -370,7 +371,7 @@ footer .sound-manag{
     height: 100%;
     background-color:rgb(204, 204, 204); 
 }
-/*RIGHT-PART*/
+    /*RIGHT-PART*/
 .sound-manag .right-items{
     width: 175px;
     height: 3.2rem;
@@ -450,4 +451,11 @@ footer .sound-manag{
         padding: 0 5rem;
     }
 
+}
+
+    /* XL DESKTOP */
+@media screen and (min-width: 1187px) {
+    .wrapper .album{
+        margin-bottom: 2.5rem;
+    }
 }
