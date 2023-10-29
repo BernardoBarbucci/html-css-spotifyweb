@@ -218,9 +218,11 @@ main .top-bar{
 main .navbar{
     height: 5rem;
     width: 100%;
-    background-color: red;
+    background-color: rgb(20, 25, 34);
     margin-top: 5rem;
     padding: 0 5rem;
+    color: rgb(129, 131, 136);
+    font-size: 13px;
 }
 
 main .navbar nav{
@@ -329,7 +331,7 @@ footer .sound-manag{
 main .top-bar button{
     height: 2.3rem;
     border-radius: 20px;
-    background-color: black;
+    background-color: rgb(8, 11, 18);
     border: 1.5px solid white;
     width: 10.5rem;
     color: white;
@@ -375,6 +377,15 @@ main .top-bar button{
     header .profile div p {
         display: none;
     }
+
+    /* MAIN NAVBAR*/
+    main .navbar{
+        padding: 0;
+    }
+
+
+
+
 
     /*FINE HEADER*/
     main{
