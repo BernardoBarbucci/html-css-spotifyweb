@@ -99,7 +99,7 @@ header .logos img:nth-child(2){
 }
 
 header .menu{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 25px;
     margin: 1.3rem;
     color: rgb(120, 120, 120);
@@ -111,7 +111,6 @@ header .menu{
 }
 
 header .menu div{
-    font-size: 16px;
     margin-right: 9px;
     margin-bottom: 10px;
 }
@@ -119,8 +118,8 @@ header .menu div{
 header .menu div:hover{
     color: white;
     font-size: 18px;
-    /* border-left: 3px solid;
-    border-color: rgb(173, 255, 47); */
+    border-left: 3px solid;
+    border-color: rgb(173, 255, 47);
 }
 
 header .playlist{
