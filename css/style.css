@@ -236,6 +236,24 @@ main .navbar nav p{
     margin: 0 0.4rem;
 }
 
+/* TOP-BAR */
+main .top-bar{
+    padding-right: 1rem;
+}
+main .top-bar button{
+    height: 2.3rem;
+    border-radius: 20px;
+    background-color: rgb(8, 11, 18);
+    border: 1.5px solid white;
+    width: 10.5rem;
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+}
+main .top-bar button:hover{
+    transform: scale(1.2);
+}
+
 /* JUMBOTRON */
     /* recently-played */
 main .jumbotron{
@@ -247,7 +265,7 @@ main .jumbotron{
 }
 .jumbotron .recently-played h1{
     margin-bottom: 10px;
-    font-size: 23px;
+    font-size: 21px;
 }
 .jumbotron .recently-played .wrapper .album{
     height: 9rem;
@@ -267,12 +285,19 @@ main .jumbotron{
     color: rgb(125, 127, 131);
 }
 
-
-
-
+    /* johnny */
 .jumbotron .johnny{
     padding-top: 4.5rem;
 }
+.jumbotron .johnny h1{
+    font-size: 21px;
+    margin-bottom: 0.5rem;
+}
+.jumbotron .johnny p{
+    font-size: 12px;
+    color: rgb(125, 127, 131);
+}
+
 /*FOOTER*/
 footer{
     height: 5rem;
@@ -362,28 +387,6 @@ footer .sound-manag{
     background-color: rgb(204, 204, 204);
 }
 /* FINE FOOTER */
-
-/* TOP-BAR */
-main .top-bar{
-    padding-right: 1rem;
-}
-main .top-bar button{
-    height: 2.3rem;
-    border-radius: 20px;
-    background-color: rgb(8, 11, 18);
-    border: 1.5px solid white;
-    width: 10.5rem;
-    color: white;
-    font-size: 9px;
-    font-weight: bold;
-}
-main .top-bar button:hover{
-    transform: scale(1.2);
-}
-
-
-
-
 
 /*MEDIA QUERIES*/
     /*MOBILE*/
