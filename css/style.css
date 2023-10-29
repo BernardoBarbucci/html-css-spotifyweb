@@ -315,7 +315,7 @@ footer .sound-manag{
 }
 .volume-bar{
     width: 5rem;
-    height: 3px;
+    height: 4px;
     background-color:rgb(94, 94, 94);
 }
 .volume-bar .progress-bar{
@@ -323,6 +323,21 @@ footer .sound-manag{
     height: 100%;
     background-color: rgb(204, 204, 204);
 }
+/* FINE FOOTER */
+
+/* TOP-BAR */
+main .top-bar button{
+    height: 2.3rem;
+    border-radius: 20px;
+    background-color: black;
+    border: 1.5px solid white;
+    width: 10.5rem;
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+
 
 
 
