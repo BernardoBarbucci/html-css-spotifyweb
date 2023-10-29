@@ -255,6 +255,9 @@ main .top-bar button:hover{
 }
 
 /* JUMBOTRON */
+.jumbotron{
+    overflow-y: scroll;
+}
     /* recently-played */
 main .jumbotron{
     color: white;
@@ -284,7 +287,6 @@ main .jumbotron{
     font-size: 12px;
     color: rgb(125, 127, 131);
 }
-
     /* johnny */
 .jumbotron .johnny{
     padding-top: 4.5rem;
@@ -296,11 +298,29 @@ main .jumbotron{
 .jumbotron .johnny p{
     font-size: 12px;
     color: rgb(125, 127, 131);
-    margin-bottom: 1.2rem;
+    margin-bottom: .7rem;
 }
 .jumbotron .johnny .wrapper .album h1{
     font-size: 15px;
 }
+    /* artist */
+.artist{
+    margin-bottom: 2.5rem;
+}
+.artist h1{
+    font-size: 21px;
+    margin-bottom: 0.6rem;
+    padding-top: 1rem;
+}
+.artist p{
+    font-size: 12px;
+    color: rgb(125, 127, 131);
+    margin-bottom: .7rem;
+}
+.artist .wrapper .album h1{
+    font-size: 15px;
+}
+
 
 /*FOOTER*/
 footer{
